@@ -1,4 +1,4 @@
-<?php
+i<?php
 // $Id: drupalpress.profile,v 1.0 2010/11/19 08:31:03 jpsh Exp $
 
 /**
@@ -9,8 +9,8 @@
  */
 function drupalpress_profile_modules() {
 
-  //Enable required core modules
 	return array(
+	//Enable required core modules
 	'block', 'filter', 'node', 'system', 'user', 'comment',
   
 	//Enable optional core modules

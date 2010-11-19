@@ -1,0 +1,4 @@
+name = Drupal Press
+description = "Drupal Press Stuff."
+package = Drupal Press
+core = 6.x

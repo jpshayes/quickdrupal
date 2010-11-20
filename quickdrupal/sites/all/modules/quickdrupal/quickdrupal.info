@@ -1,0 +1,4 @@
+name = Quick Drupal Customs
+description = "Quick Drupal Stuff."
+package = Quick Drupal
+core = 6.x

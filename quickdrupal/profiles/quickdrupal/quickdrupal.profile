@@ -143,13 +143,13 @@ function quickdrupal_profile_tasks(&$task, $url) {
 	db_query("UPDATE {system} SET status = 1 WHERE name = 'polpo'");
 	
 	// Enable drupal_press theme
-	db_query("UPDATE {system} SET status = 1 WHERE name = 'drupal_press'");
+	db_query("UPDATE {system} SET status = 1 WHERE name = 'quickdrupal'");
 	
 	// Make polpo admin them
 	variable_set('admin_theme', 'polpo');
 	
 	// Make drupal_press default theme
-	variable_set('theme_default', 'drupal_press');
+	variable_set('theme_default', 'quickdrupal');
 	
 	menu_rebuild();
 	

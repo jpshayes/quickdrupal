@@ -1,6 +1,0 @@
-<?php
-
-function drupalpress_init() {
-  drupal_add_js(drupal_get_path('module', 'drupalpress') . '/js/jquery.validate.pack.js');
-  drupal_add_js(drupal_get_path('module', 'drupalpress') . '/js/global.js');
-}

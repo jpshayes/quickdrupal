@@ -35,8 +35,8 @@ function quickdrupal_profile_modules() {
  */
 function quickdrupal_profile_details() {
   return array(
-    'name' => 'Drupal Press',
-    'description' => 'Select this profile to enable some basic blog functionality.'
+    'name' => 'Quick Drupal',
+    'description' => 'Select this profile to enable drupal core modules and some other common contributed modules.'
   );
 }
 
@@ -164,6 +164,6 @@ function quickdrupal_profile_tasks(&$task, $url) {
 function quickdrupal_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure') {
     // Set default for site name field.
-    $form['site_information']['site_name']['#default_value'] = 'Drupal Press';
+    $form['site_information']['site_name']['#default_value'] = 'Quick Drupal';
   }
 }

@@ -24,7 +24,6 @@ function quickdrupal_profile_modules() {
 	);
 
 }
-
 /**
  * Return a description of the profile for the initial installation screen.
  *
